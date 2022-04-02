@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Scrapper",
+    "version": "1.0.0",
+    "background": {
+        "service_worker": "background.js"
+    },
+    "commands": {
+        "reload": {
+            "suggested_key": "Ctrl+Shift+Y",
+            "description": "Reload extension"
+        }
+    },
+    "action": {
+        "default-title": "Click me"
+    },
+    "permissions": [
+        "tabs",
+        "scripting",
+        "activeTab"
+    ]
+}
