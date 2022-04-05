@@ -1,14 +1,14 @@
 {
   "name": "scrapper",
   "version": "1.0.0",
-  "description": "scarpper",
-  "main": "src/background.js",
+  "description": "scrapper",
+  "main": "static/background.js",
   "author": "Daniaads",
   "license": "MIT",
   "dependencies": {
-    "esbuild": "^0.14.28"
+    "esbuild": "^0.14.31"
   },
   "scripts": {
-    "dev": "node scripts/watch.js"
+    "dev":"node scripts/watch.js" 
   }
 }

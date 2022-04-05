@@ -3,7 +3,7 @@ require('esbuild').build({
     outdir: 'static',
     bundle: true,
     watch: true,
-}).then(result => {
-    console.log('watching...');
-    console.log(result);
-})
+  }).then(result => {
+    console.log('watching...')
+    console.log(result)
+  })
