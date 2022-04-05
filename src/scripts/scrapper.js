@@ -34,5 +34,5 @@ while (educationIterate) {
 
 // Envío del mensaje
 
-const port = chrome.runtime.connect({ name: "safePort" });    //Puerto comunicación long term
+let port = chrome.runtime.connect({ name: "safePort" });    //Puerto comunicación long term
 port.postMessage(new Person(fullname, educationListItems))

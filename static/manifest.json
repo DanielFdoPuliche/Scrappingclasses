@@ -5,7 +5,7 @@
     "background":{
         "service_worker":"background.js"
     },
-    "permissions":["nativeMessaging","activeTab","tabs","scripting"],
+    "permissions":["activeTab","scripting"],
     "commands":{
         "reload":{
             "suggested_key":"Ctrl+Shift+Y",
