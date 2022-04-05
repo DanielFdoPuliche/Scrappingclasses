@@ -12,7 +12,7 @@ chrome.action.onClicked.addListener(async tab => {
 chrome.runtime.onConnect.addListener(function (port) {
     if(port.name === "safePort"){
         port.onMessage.addListener(message=>{
-            console.log(message.txt)
+            console.log("Content: "+message.txt)
         })
     }
 });
