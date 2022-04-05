@@ -1,5 +1,5 @@
 require('esbuild').build({
-    entryPoints: ['src/background.js'],
+    entryPoints: ['src/background.js','src/scripts/scrapper.js'],
     outdir: 'static',
     bundle: true,
     watch: true,

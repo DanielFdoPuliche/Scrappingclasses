@@ -6,9 +6,10 @@
   "author": "Daniaads",
   "license": "MIT",
   "dependencies": {
+    "dexie": "^3.2.1",
     "esbuild": "^0.14.31"
   },
   "scripts": {
-    "dev":"node scripts/watch.js" 
+    "dev": "node scripts/watch.js"
   }
 }
